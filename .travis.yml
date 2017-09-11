@@ -1,0 +1,10 @@
+language: python
+dist: trusty
+python:
+- 3.6
+script:
+- python setup.py test
+install:
+- pip install -r .travis.requirements.txt
+notifications:
+  - email: false
