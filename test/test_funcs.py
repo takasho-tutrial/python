@@ -14,7 +14,11 @@ class TestAdd(unittest.TestCase):
     def test_matrix (self):
         import numpy as np
         from src.funcs import matrix
-        assert(matrix([[1,2],[1,4]]))
+        assert(
+            matrix([[1,2],[1,4]]),
+            [[1, -2],
+            [-0.5, 0.5]]
+        )
 
 if __name__ == '__main__':
     unittest.main()
