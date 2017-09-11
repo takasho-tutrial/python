@@ -4,5 +4,5 @@ python:
 - 3.6
 script:
 - python setup.py test
-notigications:
+notifications:
   - email: false
